@@ -7,6 +7,7 @@ $PluginInfo['CookieConsent'] = array(
     'AuthorEmail' => 'beskent@gmail.com',
     'AuthorUrl' => 'https://github.com/TimP4w/Cookie-Consent-Vanilla-Plugin',
     'MobileFriendly' => TRUE,
+    'License' => 'MIT',
 );
 
 
