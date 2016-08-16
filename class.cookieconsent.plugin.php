@@ -258,7 +258,7 @@ class CookieConsent extends Gdn_Plugin
         $Dismiss =  $TrimSize = c('Plugin.CookieConsent.Dismiss');
         $LearnMore = $TrimSize = c('Plugin.CookieConsent.LearnMore');
         $Theme = $TrimSize = c('Plugin.CookieConsent.Theme');
-        $link = "cookiepolicy";
+        $link = "/cookiepolicy";
 
         $JavaScript = '<script type="text/javascript">
                             window.cookieconsent_options = {"message": "'.$Message.'",
@@ -285,8 +285,8 @@ class CookieConsent extends Gdn_Plugin
         }
 
         // Add links to the footer
-        $PPFooterLink = '<div align="right"><a href="privacypolicy">Privacy Policy</a></div>';
-        $CPFooterLink = '<div align="right"><a href="cookiepolicy">Cookie Policy</a></div>';
+        $PPFooterLink = '<div align="right"><a href="/privacypolicy">Privacy Policy</a></div>';
+        $CPFooterLink = '<div align="right"><a href="/cookiepolicy">Cookie Policy</a></div>';
         $Sender->addAsset('Foot', $PPFooterLink, 'privacypolicylink');
         $Sender->addAsset('Foot', $CPFooterLink, 'cookiepolicylink');
     }
