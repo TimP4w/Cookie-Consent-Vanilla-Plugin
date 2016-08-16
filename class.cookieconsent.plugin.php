@@ -2,7 +2,7 @@
 $PluginInfo['CookieConsent'] = array(
     'Name' => 'Cookie Consent',
     'Description' => 'This plugin allows you to put a cookie consent banner on your Forum',
-    'Version' => '1.0',
+    'Version' => '1.0.1',
     'Author' => "Timucin Besken",
     'AuthorEmail' => 'beskent@gmail.com',
     'AuthorUrl' => 'https://github.com/TimP4w/Cookie-Consent-Vanilla-Plugin',
