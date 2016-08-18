@@ -83,8 +83,8 @@ class CookieConsent extends Gdn_Plugin
         removeFromConfig('Plugin.CookieConsent.Theme');
 
         //Delete routes
-        Gdn::Router()-> DeleteRoute('^privacypolicy(/.*)?$');
-        Gdn::Router()-> DeleteRoute('^cookiepolicy(/.*)?$');
+        Gdn::Router()->deleteRoute('^privacypolicy(/.*)?$');
+        Gdn::Router()->deleteRoute('^cookiepolicy(/.*)?$');
 
     }
 
